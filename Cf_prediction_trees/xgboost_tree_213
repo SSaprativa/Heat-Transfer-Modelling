@@ -1,0 +1,6 @@
+digraph {
+    graph [ rankdir=TB ]
+    graph [ rankdir="LR" ]
+
+    0 [ label="leaf=3.58107183e-10" ]
+}

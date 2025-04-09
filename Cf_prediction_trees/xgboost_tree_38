@@ -1,0 +1,186 @@
+digraph {
+    graph [ rankdir=TB ]
+    graph [ rankdir="LR" ]
+
+    0 [ label="Perforation (%)<0.255644381" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="Re<0.248562917" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="Re<0.0779348314" ]
+    3 -> 7 [label="yes" color="#FF0000"]
+    3 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="Perforation (%)<0.000110566354" ]
+    7 -> 15 [label="yes" color="#FF0000"]
+    7 -> 16 [label="no, missing" color="#0000FF"]
+
+    15 [ label="leaf=1.62984052e-05" ]
+
+    16 [ label="Perforation (%)<0.253965259" ]
+    16 -> 31 [label="yes" color="#FF0000"]
+    16 -> 32 [label="no, missing" color="#0000FF"]
+
+    31 [ label="leaf=4.04516031e-05" ]
+
+    32 [ label="leaf=-1.32473122e-06" ]
+
+    8 [ label="Twist Ratio<0.199404746" ]
+    8 -> 17 [label="yes" color="#FF0000"]
+    8 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="Re<0.223203897" ]
+    17 -> 33 [label="yes" color="#FF0000"]
+    17 -> 34 [label="no, missing" color="#0000FF"]
+
+    33 [ label="leaf=1.03863022e-05" ]
+
+    34 [ label="leaf=0.000102578138" ]
+
+    18 [ label="Re<0.130896881" ]
+    18 -> 35 [label="yes" color="#FF0000"]
+    18 -> 36 [label="no, missing" color="#0000FF"]
+
+    35 [ label="leaf=8.29998498e-06" ]
+
+    36 [ label="leaf=-5.21762286e-06" ]
+
+    4 [ label="Re<0.535353541" ]
+    4 -> 9 [label="yes" color="#FF0000"]
+    4 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="Perforation (%)<0.248747095" ]
+    9 -> 19 [label="yes" color="#FF0000"]
+    9 -> 20 [label="no, missing" color="#0000FF"]
+
+    19 [ label="Re<0.526204705" ]
+    19 -> 37 [label="yes" color="#FF0000"]
+    19 -> 38 [label="no, missing" color="#0000FF"]
+
+    37 [ label="leaf=-1.75586792e-05" ]
+
+    38 [ label="leaf=6.77655771e-06" ]
+
+    20 [ label="Re<0.296765178" ]
+    20 -> 39 [label="yes" color="#FF0000"]
+    20 -> 40 [label="no, missing" color="#0000FF"]
+
+    39 [ label="leaf=-2.44637631e-05" ]
+
+    40 [ label="leaf=-6.55617941e-06" ]
+
+    10 [ label="Re<0.959595978" ]
+    10 -> 21 [label="yes" color="#FF0000"]
+    10 -> 22 [label="no, missing" color="#0000FF"]
+
+    21 [ label="Perforation (%)<0.250198454" ]
+    21 -> 41 [label="yes" color="#FF0000"]
+    21 -> 42 [label="no, missing" color="#0000FF"]
+
+    41 [ label="leaf=-2.67102932e-05" ]
+
+    42 [ label="leaf=-1.30205362e-05" ]
+
+    22 [ label="Twist Ratio<0.0805533901" ]
+    22 -> 43 [label="yes" color="#FF0000"]
+    22 -> 44 [label="no, missing" color="#0000FF"]
+
+    43 [ label="leaf=-2.25311123e-05" ]
+
+    44 [ label="leaf=-4.0333307e-05" ]
+
+    2 [ label="Re<0.233234242" ]
+    2 -> 5 [label="yes" color="#FF0000"]
+    2 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="Perforation (%)<0.749578118" ]
+    5 -> 11 [label="yes" color="#FF0000"]
+    5 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="Re<0.188476995" ]
+    11 -> 23 [label="yes" color="#FF0000"]
+    11 -> 24 [label="no, missing" color="#0000FF"]
+
+    23 [ label="Perforation (%)<0.500139773" ]
+    23 -> 45 [label="yes" color="#FF0000"]
+    23 -> 46 [label="no, missing" color="#0000FF"]
+
+    45 [ label="leaf=3.71158349e-05" ]
+
+    46 [ label="leaf=1.3848311e-05" ]
+
+    24 [ label="Re<0.191919193" ]
+    24 -> 47 [label="yes" color="#FF0000"]
+    24 -> 48 [label="no, missing" color="#0000FF"]
+
+    47 [ label="leaf=-4.75593624e-05" ]
+
+    48 [ label="leaf=4.25480266e-07" ]
+
+    12 [ label="Perforation (%)<0.750107884" ]
+    12 -> 25 [label="yes" color="#FF0000"]
+    12 -> 26 [label="no, missing" color="#0000FF"]
+
+    25 [ label="Re<0.0673715696" ]
+    25 -> 49 [label="yes" color="#FF0000"]
+    25 -> 50 [label="no, missing" color="#0000FF"]
+
+    49 [ label="leaf=0.000107704545" ]
+
+    50 [ label="leaf=5.40197325e-05" ]
+
+    26 [ label="Perforation (%)<0.753207386" ]
+    26 -> 51 [label="yes" color="#FF0000"]
+    26 -> 52 [label="no, missing" color="#0000FF"]
+
+    51 [ label="leaf=-1.45379017e-05" ]
+
+    52 [ label="leaf=4.57028545e-05" ]
+
+    6 [ label="Re<0.838140786" ]
+    6 -> 13 [label="yes" color="#FF0000"]
+    6 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="Perforation (%)<0.99079895" ]
+    13 -> 27 [label="yes" color="#FF0000"]
+    13 -> 28 [label="no, missing" color="#0000FF"]
+
+    27 [ label="Re<0.40409559" ]
+    27 -> 53 [label="yes" color="#FF0000"]
+    27 -> 54 [label="no, missing" color="#0000FF"]
+
+    53 [ label="leaf=7.65696586e-06" ]
+
+    54 [ label="leaf=-2.85818055e-06" ]
+
+    28 [ label="Re<0.474747479" ]
+    28 -> 55 [label="yes" color="#FF0000"]
+    28 -> 56 [label="no, missing" color="#0000FF"]
+
+    55 [ label="leaf=2.44332805e-05" ]
+
+    56 [ label="leaf=9.83637892e-06" ]
+
+    14 [ label="Perforation (%)<0.504327834" ]
+    14 -> 29 [label="yes" color="#FF0000"]
+    14 -> 30 [label="no, missing" color="#0000FF"]
+
+    29 [ label="Perforation (%)<0.496790379" ]
+    29 -> 57 [label="yes" color="#FF0000"]
+    29 -> 58 [label="no, missing" color="#0000FF"]
+
+    57 [ label="leaf=5.88775401e-05" ]
+
+    58 [ label="leaf=-2.73789574e-05" ]
+
+    30 [ label="Perforation (%)<1.00510824" ]
+    30 -> 59 [label="yes" color="#FF0000"]
+    30 -> 60 [label="no, missing" color="#0000FF"]
+
+    59 [ label="leaf=-7.68640621e-06" ]
+
+    60 [ label="leaf=5.88281328e-05" ]
+}

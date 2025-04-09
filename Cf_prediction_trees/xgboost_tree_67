@@ -1,0 +1,168 @@
+digraph {
+    graph [ rankdir=TB ]
+    graph [ rankdir="LR" ]
+
+    0 [ label="Perforation (%)<0.503535748" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="Perforation (%)<0.00560443662" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="Perforation (%)<0.00405050954" ]
+    3 -> 7 [label="yes" color="#FF0000"]
+    3 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="Perforation (%)<0.000670584384" ]
+    7 -> 15 [label="yes" color="#FF0000"]
+    7 -> 16 [label="no, missing" color="#0000FF"]
+
+    15 [ label="Twist Ratio<0.883751154" ]
+    15 -> 31 [label="yes" color="#FF0000"]
+    15 -> 32 [label="no, missing" color="#0000FF"]
+
+    31 [ label="leaf=-8.88657814e-06" ]
+
+    32 [ label="leaf=-3.05235221e-06" ]
+
+    16 [ label="Twist Ratio<0.0425110199" ]
+    16 -> 33 [label="yes" color="#FF0000"]
+    16 -> 34 [label="no, missing" color="#0000FF"]
+
+    33 [ label="leaf=1.22270185e-05" ]
+
+    34 [ label="leaf=-5.48330854e-06" ]
+
+    8 [ label="Twist Ratio<0.0141814593" ]
+    8 -> 17 [label="yes" color="#FF0000"]
+    8 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="leaf=4.87663347e-05" ]
+
+    18 [ label="Twist Ratio<0.540277779" ]
+    18 -> 35 [label="yes" color="#FF0000"]
+    18 -> 36 [label="no, missing" color="#0000FF"]
+
+    35 [ label="leaf=-1.05816689e-05" ]
+
+    36 [ label="leaf=-2.44114653e-05" ]
+
+    4 [ label="Perforation (%)<0.503160596" ]
+    4 -> 9 [label="yes" color="#FF0000"]
+    4 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="Number of Tapes<3" ]
+    9 -> 19 [label="yes" color="#FF0000"]
+    9 -> 20 [label="no, missing" color="#0000FF"]
+
+    19 [ label="Perforation (%)<0.502833128" ]
+    19 -> 37 [label="yes" color="#FF0000"]
+    19 -> 38 [label="no, missing" color="#0000FF"]
+
+    37 [ label="leaf=-3.38426503e-06" ]
+
+    38 [ label="leaf=-7.18812589e-05" ]
+
+    20 [ label="Perforation (%)<0.502833128" ]
+    20 -> 39 [label="yes" color="#FF0000"]
+    20 -> 40 [label="no, missing" color="#0000FF"]
+
+    39 [ label="leaf=-5.06168988e-07" ]
+
+    40 [ label="leaf=2.04451699e-05" ]
+
+    10 [ label="Twist Ratio<-0.00646844879" ]
+    10 -> 21 [label="yes" color="#FF0000"]
+    10 -> 22 [label="no, missing" color="#0000FF"]
+
+    21 [ label="leaf=1.72555447e-05" ]
+
+    22 [ label="leaf=-2.55854375e-05" ]
+
+    2 [ label="Number of Tapes<2" ]
+    2 -> 5 [label="yes" color="#FF0000"]
+    2 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="Perforation (%)<0.503926039" ]
+    5 -> 11 [label="yes" color="#FF0000"]
+    5 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="Twist Ratio<0.444449991" ]
+    11 -> 23 [label="yes" color="#FF0000"]
+    11 -> 24 [label="no, missing" color="#0000FF"]
+
+    23 [ label="Twist Ratio<0.426726073" ]
+    23 -> 41 [label="yes" color="#FF0000"]
+    23 -> 42 [label="no, missing" color="#0000FF"]
+
+    41 [ label="leaf=9.67611195e-05" ]
+
+    42 [ label="leaf=5.25452451e-05" ]
+
+    24 [ label="leaf=-4.07810912e-05" ]
+
+    12 [ label="Perforation (%)<0.749578118" ]
+    12 -> 25 [label="yes" color="#FF0000"]
+    12 -> 26 [label="no, missing" color="#0000FF"]
+
+    25 [ label="Twist Ratio<0.641503751" ]
+    25 -> 43 [label="yes" color="#FF0000"]
+    25 -> 44 [label="no, missing" color="#0000FF"]
+
+    43 [ label="leaf=-9.281237e-06" ]
+
+    44 [ label="leaf=-2.9771074e-05" ]
+
+    26 [ label="Perforation (%)<0.75" ]
+    26 -> 45 [label="yes" color="#FF0000"]
+    26 -> 46 [label="no, missing" color="#0000FF"]
+
+    45 [ label="leaf=2.87390867e-05" ]
+
+    46 [ label="leaf=-1.53524365e-06" ]
+
+    6 [ label="Number of Tapes<4" ]
+    6 -> 13 [label="yes" color="#FF0000"]
+    6 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="Perforation (%)<0.504139006" ]
+    13 -> 27 [label="yes" color="#FF0000"]
+    13 -> 28 [label="no, missing" color="#0000FF"]
+
+    27 [ label="Twist Ratio<0.427765578" ]
+    27 -> 47 [label="yes" color="#FF0000"]
+    27 -> 48 [label="no, missing" color="#0000FF"]
+
+    47 [ label="leaf=-6.77491016e-07" ]
+
+    48 [ label="leaf=-4.55709996e-05" ]
+
+    28 [ label="Perforation (%)<0.505381882" ]
+    28 -> 49 [label="yes" color="#FF0000"]
+    28 -> 50 [label="no, missing" color="#0000FF"]
+
+    49 [ label="leaf=3.01691962e-05" ]
+
+    50 [ label="leaf=3.35055665e-06" ]
+
+    14 [ label="Perforation (%)<1.00374484" ]
+    14 -> 29 [label="yes" color="#FF0000"]
+    14 -> 30 [label="no, missing" color="#0000FF"]
+
+    29 [ label="Perforation (%)<0.503739178" ]
+    29 -> 51 [label="yes" color="#FF0000"]
+    29 -> 52 [label="no, missing" color="#0000FF"]
+
+    51 [ label="leaf=5.45530129e-05" ]
+
+    52 [ label="leaf=8.66072151e-06" ]
+
+    30 [ label="Twist Ratio<0.0786525011" ]
+    30 -> 53 [label="yes" color="#FF0000"]
+    30 -> 54 [label="no, missing" color="#0000FF"]
+
+    53 [ label="leaf=8.52722133e-06" ]
+
+    54 [ label="leaf=-1.56007936e-05" ]
+}

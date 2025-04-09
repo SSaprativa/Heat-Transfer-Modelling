@@ -1,0 +1,60 @@
+digraph {
+    graph [ rankdir=TB ]
+    graph [ rankdir="LR" ]
+
+    0 [ label="Perforation (%)<0.000670584384" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="leaf=-2.14378156e-06" ]
+
+    2 [ label="Re<0.954590857" ]
+    2 -> 3 [label="yes" color="#FF0000"]
+    2 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="Re<0.0308398418" ]
+    3 -> 5 [label="yes" color="#FF0000"]
+    3 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="Twist Ratio<-0.0337706544" ]
+    5 -> 9 [label="yes" color="#FF0000"]
+    5 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="leaf=-3.34994038e-05" ]
+
+    10 [ label="Twist Ratio<0.226169109" ]
+    10 -> 13 [label="yes" color="#FF0000"]
+    10 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="leaf=1.92272964e-05" ]
+
+    14 [ label="leaf=3.29731665e-06" ]
+
+    6 [ label="Re<0.919862211" ]
+    6 -> 11 [label="yes" color="#FF0000"]
+    6 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="Re<0.897504508" ]
+    11 -> 15 [label="yes" color="#FF0000"]
+    11 -> 16 [label="no, missing" color="#0000FF"]
+
+    15 [ label="leaf=4.09254397e-07" ]
+
+    16 [ label="leaf=-8.5169977e-06" ]
+
+    12 [ label="Perforation (%)<0.00109842955" ]
+    12 -> 17 [label="yes" color="#FF0000"]
+    12 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="leaf=3.92728507e-05" ]
+
+    18 [ label="leaf=4.42459441e-06" ]
+
+    4 [ label="Perforation (%)<1.00137234" ]
+    4 -> 7 [label="yes" color="#FF0000"]
+    4 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="leaf=-5.02479907e-06" ]
+
+    8 [ label="leaf=-8.26508185e-05" ]
+}

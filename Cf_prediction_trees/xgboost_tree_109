@@ -1,0 +1,108 @@
+digraph {
+    graph [ rankdir=TB ]
+    graph [ rankdir="LR" ]
+
+    0 [ label="Re<0.101010099" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="Number of Tapes<4" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="Twist Ratio<0.436089486" ]
+    3 -> 7 [label="yes" color="#FF0000"]
+    3 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="Twist Ratio<0.407851964" ]
+    7 -> 11 [label="yes" color="#FF0000"]
+    7 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="Re<0.0982055739" ]
+    11 -> 19 [label="yes" color="#FF0000"]
+    11 -> 20 [label="no, missing" color="#0000FF"]
+
+    19 [ label="leaf=4.24042628e-06" ]
+
+    20 [ label="leaf=-0.000108465298" ]
+
+    12 [ label="Number of Tapes<3" ]
+    12 -> 21 [label="yes" color="#FF0000"]
+    12 -> 22 [label="no, missing" color="#0000FF"]
+
+    21 [ label="leaf=-3.32613563e-05" ]
+
+    22 [ label="leaf=-4.35916218e-06" ]
+
+    8 [ label="Twist Ratio<0.438645124" ]
+    8 -> 13 [label="yes" color="#FF0000"]
+    8 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="Re<0.0779348314" ]
+    13 -> 23 [label="yes" color="#FF0000"]
+    13 -> 24 [label="no, missing" color="#0000FF"]
+
+    23 [ label="leaf=4.89900231e-05" ]
+
+    24 [ label="leaf=-1.11283953e-05" ]
+
+    14 [ label="Re<0.0982055739" ]
+    14 -> 25 [label="yes" color="#FF0000"]
+    14 -> 26 [label="no, missing" color="#0000FF"]
+
+    25 [ label="leaf=1.84868532e-06" ]
+
+    26 [ label="leaf=4.72530846e-05" ]
+
+    4 [ label="leaf=7.26713142e-06" ]
+
+    2 [ label="Re<0.959595978" ]
+    2 -> 5 [label="yes" color="#FF0000"]
+    2 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="Number of Tapes<3" ]
+    5 -> 9 [label="yes" color="#FF0000"]
+    5 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="Re<0.110718794" ]
+    9 -> 15 [label="yes" color="#FF0000"]
+    9 -> 16 [label="no, missing" color="#0000FF"]
+
+    15 [ label="Twist Ratio<0.00375204859" ]
+    15 -> 27 [label="yes" color="#FF0000"]
+    15 -> 28 [label="no, missing" color="#0000FF"]
+
+    27 [ label="leaf=2.43986196e-05" ]
+
+    28 [ label="leaf=-2.83429345e-05" ]
+
+    16 [ label="Re<0.130896881" ]
+    16 -> 29 [label="yes" color="#FF0000"]
+    16 -> 30 [label="no, missing" color="#0000FF"]
+
+    29 [ label="leaf=9.10923973e-06" ]
+
+    30 [ label="leaf=-1.44668263e-06" ]
+
+    10 [ label="Re<0.932037711" ]
+    10 -> 17 [label="yes" color="#FF0000"]
+    10 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="Re<0.415712684" ]
+    17 -> 31 [label="yes" color="#FF0000"]
+    17 -> 32 [label="no, missing" color="#0000FF"]
+
+    31 [ label="leaf=1.93352548e-06" ]
+
+    32 [ label="leaf=-6.35426829e-07" ]
+
+    18 [ label="Twist Ratio<0.0805533901" ]
+    18 -> 33 [label="yes" color="#FF0000"]
+    18 -> 34 [label="no, missing" color="#0000FF"]
+
+    33 [ label="leaf=4.18614181e-05" ]
+
+    34 [ label="leaf=7.72070689e-06" ]
+
+    6 [ label="leaf=-5.45593002e-06" ]
+}

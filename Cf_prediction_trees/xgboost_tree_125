@@ -1,0 +1,78 @@
+digraph {
+    graph [ rankdir=TB ]
+    graph [ rankdir="LR" ]
+
+    0 [ label="Perforation (%)<0.993394077" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="leaf=-4.41755219e-07" ]
+
+    2 [ label="Perforation (%)<0.994671106" ]
+    2 -> 3 [label="yes" color="#FF0000"]
+    2 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="Twist Ratio<0.922350049" ]
+    3 -> 5 [label="yes" color="#FF0000"]
+    3 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="Number of Tapes<4" ]
+    5 -> 9 [label="yes" color="#FF0000"]
+    5 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="Twist Ratio<0.0845433474" ]
+    9 -> 15 [label="yes" color="#FF0000"]
+    9 -> 16 [label="no, missing" color="#0000FF"]
+
+    15 [ label="leaf=6.79314553e-07" ]
+
+    16 [ label="leaf=3.42174426e-05" ]
+
+    10 [ label="leaf=-3.01365503e-06" ]
+
+    6 [ label="leaf=8.053489e-05" ]
+
+    4 [ label="Perforation (%)<0.996667683" ]
+    4 -> 7 [label="yes" color="#FF0000"]
+    4 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="Twist Ratio<0.0490017124" ]
+    7 -> 11 [label="yes" color="#FF0000"]
+    7 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="Number of Tapes<4" ]
+    11 -> 17 [label="yes" color="#FF0000"]
+    11 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="leaf=-4.95100867e-05" ]
+
+    18 [ label="leaf=9.82988149e-06" ]
+
+    12 [ label="Twist Ratio<0.0912802741" ]
+    12 -> 19 [label="yes" color="#FF0000"]
+    12 -> 20 [label="no, missing" color="#0000FF"]
+
+    19 [ label="leaf=2.13958501e-05" ]
+
+    20 [ label="leaf=-9.8980363e-06" ]
+
+    8 [ label="Perforation (%)<0.997745216" ]
+    8 -> 13 [label="yes" color="#FF0000"]
+    8 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="Twist Ratio<0.666662514" ]
+    13 -> 21 [label="yes" color="#FF0000"]
+    13 -> 22 [label="no, missing" color="#0000FF"]
+
+    21 [ label="leaf=5.6268982e-06" ]
+
+    22 [ label="leaf=6.01995234e-05" ]
+
+    14 [ label="Perforation (%)<1.01125312" ]
+    14 -> 23 [label="yes" color="#FF0000"]
+    14 -> 24 [label="no, missing" color="#0000FF"]
+
+    23 [ label="leaf=1.32303683e-06" ]
+
+    24 [ label="leaf=-4.98369336e-05" ]
+}
